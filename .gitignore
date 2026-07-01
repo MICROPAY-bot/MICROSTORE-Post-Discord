@@ -1,0 +1,17 @@
+node_modules/
+dist/
+
+# Environment variables — JANGAN PERNAH push file .env asli ke GitHub
+.env
+.env.*
+!.env.example
+apps/backend/.env
+apps/backend/.env.*
+!apps/backend/.env.example
+apps/frontend/.env
+apps/frontend/.env.*
+!apps/frontend/.env.example
+
+*.log
+logs/
+.DS_Store

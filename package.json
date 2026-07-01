@@ -1,0 +1,9 @@
+{
+  "name": "microstore-auto-post",
+  "version": "1.7.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel dev",
+    "build": "pnpm --recursive build"
+  }
+}
